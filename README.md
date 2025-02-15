@@ -17,6 +17,12 @@ navigate to official website of hashicorp- https://developer.hashicorp.com/terra
 3. Apply the Configuration- terraform apply
 4. Destroy Infrastructure- terraform destroy
 5. Format Terraform Code- terraform fmt
+
+# configure AWS credentials
+ $ export AWS_ACCESS_KEY_ID="your-access-key"
+ $ export AWS_SECRET_ACCESS_KEY="your-secret-key"
+ $ export AWS_REGION="us-east-1"
+
  
 
   
