@@ -11,20 +11,12 @@ navigate to official website of hashicorp- https://developer.hashicorp.com/terra
  $ sudo apt update && sudo apt install terraform
 
 # Commands
-1.Initialize a Terraform Working Directory
-  terraform init
-
-2. Generate and Show an Execution Plan
-   terraform plan
-
-3. Apply the Configuration
-   terraform apply
-
-4. Destroy Infrastructure
-   terraform destroy
-
-5. Format Terraform Code
-   terraform fmt
+1.Initialize a Terraform Working Directory- terraform init
+2. Generate and Show an Execution Plan- terraform plan
+3. Apply the Configuration- terraform apply
+4. Destroy Infrastructure- terraform destroy
+5. Format Terraform Code- terraform fmt
+ 
 
   
 
