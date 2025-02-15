@@ -11,6 +11,9 @@ navigate to official website of hashicorp- https://developer.hashicorp.com/terra
  $ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
  $ sudo apt update && sudo apt install terraform
 
+# Create terraform working directory
+ $ mkdir myterraformdir && cd myterraformdir
+
 # Commands
 1.Initialize a Terraform Working Directory- terraform init
 2. Generate and Show an Execution Plan- terraform plan
