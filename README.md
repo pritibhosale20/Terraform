@@ -3,13 +3,15 @@
 **Install Terraform on Amazon Linux**
 
 navigate to official website of hashicorp- https://developer.hashicorp.com/terraform/install#linux
- go to install-> select linux-> Amazon linux-> execute these cmds->
+ go to install-> select linux-> Amazon linux-> execute this cmds->
 ```bash
  $ sudo yum install -y yum-utils shadow-utils
  $ sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
  $ sudo yum -y install terraform
  ```
 **Install Terraform on ubuntu**
+navigate to official website of hashicorp- https://developer.hashicorp.com/terraform/install#linux
+ go to install-> select linux-> Ubuntu/Debian-> execute this cmds->
 ```
  $ wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
  $ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
