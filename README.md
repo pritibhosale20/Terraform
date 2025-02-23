@@ -1,3 +1,5 @@
+# Terraform Installation
+
 **Install Terraform on Amazon Linux**
 
 navigate to official website of hashicorp- https://developer.hashicorp.com/terraform/install#linux
