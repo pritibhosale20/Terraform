@@ -1,4 +1,5 @@
 **Install Terraform on Amazon Linux**
+
 navigate to official website of hashicorp- https://developer.hashicorp.com/terraform/install#linux
  go to install-> select linux-> Amazon linux-> execute these cmds->
 ```bash
