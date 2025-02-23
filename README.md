@@ -19,13 +19,13 @@ navigate to official website of hashicorp- https://developer.hashicorp.com/terra
 # Commands
 1.Initialize a Terraform Working Directory- terraform init
 
-2. Generate and Show an Execution Plan- terraform plan
+2.Generate and Show an Execution Plan- terraform plan
    
-3. Apply the Configuration- terraform apply
+3.Apply the Configuration- terraform apply
    
-4. Destroy Infrastructure- terraform destroy
+4.Destroy Infrastructure- terraform destroy
    
-6. Format Terraform Code- terraform fmt
+5.Format Terraform Code- terraform fmt
 
 # configure AWS credentials
 ```
